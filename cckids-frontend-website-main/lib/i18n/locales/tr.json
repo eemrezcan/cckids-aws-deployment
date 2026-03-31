@@ -1,0 +1,561 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "projects": "Projeler",
+    "references": "Referanslar",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "getQuote": "Teklif Al",
+    "menuToggle": "Menüyü aç/kapat",
+    "langSwitch": "Dil değiştir",
+    "homeAriaLabel": "CCKids Ana Sayfa"
+  },
+  "hero": {
+    "title": "Renkli Dünyalar Yaratıyoruz! 🌈",
+    "subtitle": "Çocuklarınızın hayal gücünü besleyen, güvenli ve eğlenceli kreş mobilyaları ile tanışın.",
+    "contactNow": "Hemen İletişime Geç",
+    "exploreProducts": "Ürünleri İncele",
+    "completedProjects": "Tamamlanan Projeler",
+    "happySpaces": "Mutlu Kreşler, Renkli Alanlar",
+    "allProjects": "Tüm Projeler",
+    "loadingProjects": "Proje görselleri yükleniyor…",
+    "project": "Proje",
+    "detail": "Detay",
+    "clickToView": "Projeyi incelemek için tıklayın",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "slide": "Slayt",
+    "completedProjectCount": "Tamamlanan Proje",
+    "cityCoverage": "İl'de Hizmet",
+    "happyChildren": "Mutlu Çocuk",
+    "experienceYears": "Yıllık Tecrübe"
+  },
+  "features": {
+    "title": "Neden Biz?",
+    "items": {
+      "safeMaterial": {
+        "title": "Güvenli Malzeme",
+        "desc": "Tüm ürünlerimiz çocuk sağlığına uygun malzemelerden üretilir."
+      },
+      "colorfulDesign": {
+        "title": "Renkli Tasarım",
+        "desc": "Çocukların hayal gücünü geliştiren, canlı ve neşeli renkler."
+      },
+      "ergonomic": {
+        "title": "Ergonomik",
+        "desc": "Minik bedenlere tam uyum sağlayan konforlu yapılar."
+      },
+      "fastDelivery": {
+        "title": "Hızlı Teslimat",
+        "desc": "Türkiye geneli hızlı ve güvenli teslimat hizmeti."
+      }
+    }
+  },
+  "footer": {
+    "contactTitle": "Bizimle İletişime Geçin! 💌",
+    "contactText": "Renkli dünyalar yaratmak için sizinle çalışmayı çok isteriz!",
+    "soon": "Yakında",
+    "goToContact": "İletişim Sayfasına Git",
+    "aboutText": "2010 yılından beri miniklerin dünyasını renklendiriyoruz. Sadece mobilya değil, mutluluk üretiyoruz.",
+    "quickLinks": "Hızlı Linkler",
+    "addresses": "Adresler",
+    "office": "Ofis / Showroom",
+    "workshop": "Atölye / Üretim",
+    "followUs": "Bizi Takip Edin",
+    "social": "Sosyal medya",
+    "copyright": "CCKids Kreş Mobilyaları | Renkli Dünyalar Yaratıyoruz 🌈"
+  },
+  "common": {
+    "loading": "Yükleniyor…",
+    "error": "Hata",
+    "retry": "Tekrar dene",
+    "notFound": "Bulunamadı",
+    "search": "Ara",
+    "all": "Tümü",
+    "viewDetail": "Detayı Gör",
+    "detailsForReview": "Detaylar için inceleyin.",
+    "close": "Kapat",
+    "send": "Gönder",
+    "sending": "Gönderiliyor...",
+    "whatsapp": "WhatsApp",
+    "comingSoon": "Yakında",
+    "unknownError": "Bilinmeyen hata"
+  },
+  "productList": {
+    "title": "Ürünler",
+    "searchPlaceholder": "Ürün ara...",
+    "productCount": "ürün",
+    "loadMore": "Daha fazla yükle",
+    "thatsAll": "Hepsi bu kadar 🎉",
+    "empty": "Aradığınız kriterlere uygun ürün bulunamadı.",
+    "imageMissing": "Görsel yok",
+    "unexpectedError": "Bir sorun oluştu. Lütfen tekrar deneyin."
+  },
+  "assistant": {
+    "welcome": "Merhaba! Ben CCkids Tasarımcısıyım. ✨ Sınıfınız için mobilya seçimi konusunda sana nasıl yardımcı olabilirim?",
+    "fallback": "Üzgünüm, şu an bağlantımda bir sorun var. Lütfen tekrar dener misin? 🎈",
+    "error": "Bir hata oluştu ama sorun değil, tekrar deneyebiliriz! 🛠️",
+    "open": "Yapay zeka asistanını aç",
+    "title": "Tasarım Sihirbazı",
+    "subtitle": "Yapay Zeka Destekli",
+    "ask": "Bir soru sorun..."
+  },
+  "whatsapp": {
+    "contactVia": "WhatsApp ile iletişime geç"
+  },
+  "products": {
+    "allProducts": "Tüm Ürünler",
+    "searchLabel": "Arama",
+    "productNotFound": "Ürün bulunamadı.",
+    "clearFilters": "Filtreleri Temizle",
+    "previous": "← Önceki",
+    "next": "Sonraki →",
+    "page": "Sayfa",
+    "askStock": "Stok Sor"
+  },
+  "quoteForm": {
+    "contactTitle": "Bize Yazın ✍️",
+    "contactSubtitle": "Formu doldurun, size en kısa sürede dönelim.",
+    "privacy": "Gizlilik Politikası'nı okudum ve kabul ediyorum. Kişisel verilerimin işlenmesine izin veriyorum.",
+    "messageReceived": "Mesajınız alındı. En kısa sürede dönüş yapacağız. ✅",
+    "requestReceived": "Talebiniz alındı!",
+    "requestQuote": "Teklif İste",
+    "validation": {
+      "fillName": "Lütfen ad soyad alanını doldurun.",
+      "invalidEmail": "Lütfen geçerli bir e-posta girin.",
+      "fillPhone": "Lütfen telefon alanını doldurun.",
+      "fillEmail": "Lütfen e-posta alanını doldurun.",
+      "qtyMin": "Adet en az 1 olmalı.",
+      "fillFirstName": "Lütfen adınızı yazın.",
+      "fillLastName": "Lütfen soyadınızı yazın.",
+      "fillContactEmail": "Lütfen e-posta adresinizi yazın.",
+      "fillSubject": "Lütfen konu seçin.",
+      "fillMessage": "Lütfen mesajınızı yazın.",
+      "acceptPrivacy": "Lütfen gizlilik politikasını kabul edin."
+    },
+    "labels": {
+      "firstName": "Ad *",
+      "firstNamePlaceholder": "Adınız",
+      "lastName": "Soyad *",
+      "lastNamePlaceholder": "Soyadınız",
+      "email": "E-posta *",
+      "emailPlaceholder": "ornek@email.com",
+      "phone": "Telefon",
+      "phoneRequired": "Telefon *",
+      "phonePlaceholder": "0532 123 45 67",
+      "company": "Kurum Adı",
+      "companyPlaceholder": "Kreş / Anaokulu adı",
+      "city": "Şehir",
+      "cityPlaceholder": "Şehir",
+      "subject": "Konu *",
+      "subjectPlaceholder": "Konu seçin",
+      "message": "Mesajınız *",
+      "messagePlaceholder": "Mesajınızı buraya yazın...",
+      "selectedProduct": "Seçili Ürün",
+      "selected": "Seçili",
+      "fullName": "Ad Soyad *",
+      "fullNamePlaceholder": "Adınız Soyadınız",
+      "quantity": "Adet *",
+      "note": "Not (Opsiyonel)",
+      "notePlaceholder": "Özel isteklerinizi belirtin...",
+      "productImageAlt": "Ürün"
+    },
+    "subjects": {
+      "quote": "Fiyat Teklifi Almak İstiyorum",
+      "info": "Ürün Bilgisi Almak İstiyorum",
+      "support": "Teknik Destek",
+      "feedback": "Şikayet / Öneri",
+      "dealership": "Bayilik Başvurusu",
+      "other": "Diğer"
+    },
+    "message": {
+      "productIntro": "Merhaba, \"{product}\" için fiyat teklifi almak istiyorum.",
+      "color": "Renk: {value}",
+      "size": "Boyut: {value}",
+      "quantity": "Adet: {value}",
+      "company": "Kurum: {value}",
+      "city": "Şehir: {value}",
+      "note": "Not: {value}",
+      "subject": "Konu: {value}",
+      "messageTitle": "Mesaj:"
+    },
+    "submitError": "Gönderim sırasında bir hata oluştu.",
+    "requestTrackNo": "Takip No: #{id}",
+    "privacyLink": "Gizlilik Politikası",
+    "privacySuffix": "'nı okudum ve kabul ediyorum. Kişisel verilerimin işlenmesine izin veriyorum."
+  },
+  "productDetail": {
+    "notFoundDesc": "Bağlantı hatalı olabilir veya ürün kaldırılmış olabilir.",
+    "backToProducts": "Ürünlere Dön",
+    "badge": {
+      "featured": "Öne Çıkan",
+      "inProduction": "Üretimde"
+    },
+    "aria": {
+      "zoom": "Büyüt",
+      "image": "Görsel {index}"
+    },
+    "fallbackOption": "—",
+    "defaultSizeOption": "Seçenek",
+    "colorOptions": "Renk Seçenekleri",
+    "selected": "Seçili",
+    "sizeOptions": "Boyut Seçenekleri",
+    "size": "Ölçü",
+    "cta": {
+      "quoteForProduct": "Bu Ürün İçin Teklif Al"
+    },
+    "tabs": {
+      "description": "📝 Açıklama",
+      "features": "⚙️ Teknik Özellikler",
+      "material": "🪵 Malzeme & Üretim",
+      "delivery": "🚚 Teslimat & Destek"
+    },
+    "descriptionTitle": "Ürün Açıklaması",
+    "descriptionFallback": "Bu ürün hakkında detaylı bilgi için teklif formunu doldurabilir veya WhatsApp üzerinden yazabilirsiniz.",
+    "highlights": "Öne Çıkanlar",
+    "featuresTitle": "Teknik Özellikler",
+    "featuresSoon": "Teknik özellikler yakında eklenecektir.",
+    "materialTitle": "Malzeme & Üretim",
+    "materialSoon": "Malzeme & üretim bilgileri yakında eklenecektir.",
+    "sustainableTitle": "🌿 Sürdürülebilir Üretim",
+    "sustainableText": "Çocuk dostu malzemeler ve çevreye duyarlı üretim yaklaşımıyla çalışıyoruz.",
+    "deliveryTitle": "Teslimat & Destek",
+    "deliveryInfoTitle": "Teslimat Bilgileri",
+    "delivery": {
+      "i1": "Türkiye geneli sevkiyat",
+      "i2": "Ortalama teslim: 7-10 iş günü",
+      "i3": "Güvenli ambalaj",
+      "i4": "Toplu siparişlerde destek"
+    },
+    "warrantyTitle": "Desteklerimiz",
+    "warranty": {
+      "i1": "Yedek parça desteği",
+      "i2": "Teknik destek",
+      "i3": "Servis imkanı",
+      "i4": "Servis imkanı"
+    },
+    "quoteTitle": "Bu Ürün İçin Teklif Alın",
+    "quoteSubtitle": "Formu doldurun, size özel fiyat teklifimizi hemen gönderelim.",
+    "specialPrice": "% Özel Fiyat",
+    "priceInfo": "Fiyatlar; renk, ölçü ve adet bilgilerine göre değişebilir. Formu doldurun, hızlıca dönüş yapalım.",
+    "relatedSubtitle": "Bu ürünle birlikte tercih edilenler",
+    "quick": {
+      "i1": "Leke Tutmaz Yüzey",
+      "i2": "Ayarlanabilir Ayaklar",
+      "i3": "E1 Sınıfı Ahşap",
+      "i4": "Desteki"
+    },
+    "contactForDetails": "Detaylı bilgi ve size özel teklif için hemen iletişime geçin.",
+    "largeImage": "Büyük Görsel",
+    "installation": "Montaj Desteği",
+    "related": "Benzer Ürünler",
+    "warrantyBadge": "Destek"
+  },
+  "productTabs": {
+    "descriptionTitle": "Ürün Açıklaması",
+    "whyChoose": "Neden Bu Ürünü Seçmelisiniz?",
+    "safeDesign": "Güvenli Tasarım",
+    "safeDesignText": "Yuvarlak hatlar ve çocuk dostu yüzey.",
+    "easyClean": "Kolay Temizlik",
+    "easyCleanText": "Leke tutmaz, silinebilir yüzey.",
+    "durable": "Dayanıklı Yapı",
+    "durableText": "Yoğun kullanıma uygun üretim.",
+    "longLife": "Uzun Ömür",
+    "longLifeText": "Kreş standardına uygun malzeme seçimi.",
+    "featuresTitle": "Teknik Özellikler",
+    "featuresNote": "Not: Teknik veriler backend’e eklendiğinde bu alan otomatik güncellenecek.",
+    "materialTitle": "Malzeme & Üretim",
+    "topSurface": "Üst Yüzey",
+    "legs": "Ayaklar",
+    "sustainable": "🌿 Sürdürülebilir Üretim",
+    "sustainableText": "Üretimde çocuk sağlığına uygun malzemeler kullanılır. detaylar eklendiğinde burada otomatik gösterilecektir.",
+    "deliveryTitle": "Teslimat & Destek",
+    "deliveryInfo": "Teslimat Bilgileri",
+    "warranty": "Destek Koşulları",
+    "defaultDescription": "kreş ve anaokulu kullanımı için tasarlanmış güvenli ve dayanıklı bir üründür.",
+    "spec": {
+      "productCode": "Ürün Kodu",
+      "dimensions": "Boyutlar",
+      "heightAdjust": "Yükseklik Ayarı",
+      "material": "Malzeme",
+      "edgeBand": "Kenar Bandı",
+      "capacity": "Taşıma Kapasitesi",
+      "ageGroup": "Yaş Grubu",
+      "certs": "Sürdürülebilirlik",
+      "warranty": "Destek",
+      "warrantyValue": "2 yıl",
+      "delivery": "Teslim Süresi",
+      "deliveryValue": "7-10 iş günü"
+    },
+    "surface": {
+      "i1": "E1 sınıfı ahşap türevleri (düşük emisyon)",
+      "i2": "Kolay temizlenebilir kaplama",
+      "i3": "Antibakteriyel yüzey opsiyonu",
+      "i4": "ABS kenar bandı"
+    },
+    "legsList": {
+      "i1": "Sağlam gövde yapısı",
+      "i2": "Zemin koruyucu tabanlar",
+      "i3": "Yükseklik ayar mekanizması (ops.)",
+      "i4": "Çocuk dostu boya/vernik"
+    },
+    "deliveryList": {
+      "i1": "Türkiye geneli sevkiyat",
+      "i2": "Teslimat süresi: 7-10 iş günü",
+      "i3": "Güvenli ambalaj",
+      "i4": "Toplu alımlarda destek"
+    },
+    "warrantyList": {
+      "i1": "Üretici desteği",
+      "i2": "Yedek parça temini",
+      "i3": "Teknik destek"
+    }
+  },
+  "home": {
+    "hero": {
+      "b1": "Güvenli yuvarlak kenarlar",
+      "b2": "Kolay temizlenir yüzey",
+      "b3": "Uzun ömürlü ve dayanıklı malzeme",
+      "inStock": "Stokta",
+      "featured": "Öne Çıkan Ürün",
+      "star": "Haftanın Yıldızı",
+      "warranty": "Destek",
+      "viewProduct": "Ürünü Gör",
+      "defaultTitle": "CCKids Kreş Mobilyaları"
+    },
+    "cta": {
+      "title": "Projeniz İçin Bize Ulaşın!",
+      "description": "Kreşiniz veya anaokulunuz için ücretsiz keşif ve proje danışmanlığı hizmeti alın.",
+      "contact": "İletişime Geç"
+    },
+    "featuredProducts": {
+      "subtitle": "En çok tercih edilen ürünlerimiz"
+    },
+    "categories": {
+      "title": "Kategoriler",
+      "subtitle": "İhtiyacınıza uygun mobilyaları keşfedin",
+      "defaultName": "Kategori"
+    },
+    "completedProjects": {
+      "subtitle": "Türkiye’nin dört bir yanından mutlu projeler",
+      "hint": "Üzerine gelince durur • Parmağınla sürükleyebilirsin"
+    }
+  },
+  "projects": {
+    "searchPlaceholder": "Proje ara...",
+    "clearSearch": "Aramayı temizle",
+    "clear": "Temizle"
+  },
+  "seo": {
+    "homeDescription": "CCkids, kreş ve anaokulları için güvenli, ergonomik ve renkli mobilya çözümleri sunar.",
+    "aboutDescription": "CCkids'in hikayesini, değerlerini ve okul öncesi mobilya üretim yaklaşımını keşfedin.",
+    "contactDescription": "CCkids ile iletişime geçin. Telefon, e-posta ve showroom/fabrika adres bilgilerimize buradan ulaşın.",
+    "productsDescription": "Kreş ve anaokulları için masa, sandalye, dolap ve daha fazlasını ürün kategorilerimizde keşfedin.",
+    "projectsDescription": "CCkids'in tamamladığı kreş ve anaokulu projelerini inceleyin, ilham alın.",
+    "referencesDescription": "CCkids'e güvenen kurumları ve referanslarımızı inceleyin."
+  },
+  "about": {
+    "metaTitle": "Hakkımızda | CCkids Kreş Mobilyaları",
+    "breadcrumb": "Hakkımızda",
+    "since": "2010'dan Beri",
+    "titleTop": "Miniklerin",
+    "titleMid": "Mutluluk",
+    "titleBottom": "Atölyesi",
+    "fallback": "Çocukların güvenle oynayıp öğrenebileceği, renkli ve ergonomik mobilyalar üretiyoruz. Her ürünümüzde sevgi, kalite ve yaratıcılık var.",
+    "discover": "Hikayemizi Keşfet",
+    "experience": "Yıllık Tecrübe",
+    "happySchools": "Mutlu Kreş",
+    "produced": "Üretilen Mobilya",
+    "happyChildren": "Mutlu Çocuk",
+    "delivery": "İl'e Teslimat",
+    "storyTitle": "Hikayemiz",
+    "storySubtitle": "Çocukların güvenle kullanabileceği, dayanıklı ve fonksiyonel kreş mobilyaları üretme hedefiyle çıktığımız bu yolda, kaliteyi ve güveni her zaman ön planda tuttuk.",
+    "today": "Bugün",
+    "valuesTitle": "Değerlerimiz",
+    "valuesSubtitle": "Her ürettiğimiz mobilyada bu değerleri yaşatıyoruz",
+    "ctaTitle": "Birlikte Çalışalım!",
+    "ctaSubtitle": "Kreşiniz için hayalinizdeki mobilyaları birlikte tasarlayalım. Uzman ekibimiz her adımda yanınızda.",
+    "ctaContact": "İletişime Geç",
+    "ctaProducts": "Ürünleri Keşfet",
+    "timeline": {
+      "2010": {
+        "title": "Başlangıç",
+        "desc": "Ankara’da, okul öncesi eğitim kurumlarına özel çocuk kullanımına uygun mobilyalar üretmek amacıyla faaliyete başladık. Ürünlerimizi tasarlarken dayanıklılık, ergonomi ve çocuk güvenliği temel önceliğimiz oldu."
+      },
+      "2014": {
+        "title": "Üretim Gücümüz",
+        "desc": "Artan talepler doğrultusunda üretim kapasitemizi ve ürün çeşitliliğimizi genişlettik. Bugün farklı ölçü ve tasarımlarda, kurumlara özel üretim yapıyoruz."
+      },
+      "2022": {
+        "title": "Eğitim Odaklı Tasarımlar",
+        "desc": "Eğitimcilerin ve kurumların ihtiyaçlarını dikkate alarak, sınıf içi kullanıma uygun, çocukların gelişimini destekleyen tasarımlar geliştirmeye başladık."
+      },
+      "today": {
+        "desc": "Bugün Ankara’daki üretim tesisimizden, Türkiye genelinde birçok kreş ve anaokuluna hizmet veriyoruz. CCKids olarak, minik eller için büyük konfor sunmaya devam ediyoruz."
+      }
+    },
+    "values": {
+      "items": {
+        "safety": {
+          "title": "Güvenlik",
+          "desc": "Çocukların güvenliği her şeyin önünde. Yuvarlak köşeler, atoksik boyalar ve sağlam yapı standartlarımızdır."
+        },
+        "sustainability": {
+          "title": "Sürdürülebilirlik",
+          "desc": "Doğaya saygılı üretim. Tüm ürünlerimiz ahşap ve A+ kalitedeki malzemelerden yapılmıştır ."
+        },
+        "creativity": {
+          "title": "Yaratıcılık",
+          "desc": "Çocukların hayal gücünü besleyen tasarımlar. Her ürün bir oyun, her renk bir macera."
+        },
+        "love": {
+          "title": "Sevgi",
+          "desc": "Her ürünümüz sevgiyle tasarlanır, özenle üretilir. Çocuklarımız için en iyisini yapıyoruz."
+        },
+        "reliability": {
+          "title": "Güvenilirlik",
+          "desc": "Söz verdiğimiz kaliteyi sunarız. Ömür boyu servis desteği."
+        },
+        "innovation": {
+          "title": "İnovasyon",
+          "desc": "Sürekli gelişim ve yenilik. Eğitim trendlerini takip eder, ürünlerimizi geliştiririz."
+        }
+      }
+    },
+    "workshopAlt": "CCKids Atölye"
+  },
+  "contact": {
+    "metaTitle": "İletişim | CCkids Kreş Mobilyaları",
+    "breadcrumb": "İletişim",
+    "heroTitle": "İletişime Geçin",
+    "heroSubtitle": "Sorularınız, önerileriniz veya teklif talepleriniz için bize ulaşın. Size yardımcı olmaktan mutluluk duyarız!",
+    "phone": "Telefon",
+    "phoneHours": "Pazartesi-Cumartesi: 09:00 - 18:00",
+    "whatsapp": "WhatsApp",
+    "whatsappDesc": "Hızlı yanıt için mesaj atın",
+    "email": "E-posta",
+    "emailDesc": "24 saat içinde yanıt",
+    "showroom": "Showroom",
+    "showroomDesc": "Ofis / showroom adresi",
+    "factory": "Fabrika",
+    "factoryDesc": "Atölye / üretim adresi",
+    "mapSoon": "Harita bilgisi yakında eklenecek.",
+    "factoryShowroom": "Fabrika & Showroom",
+    "showroomAddress": "Showroom Adresi",
+    "factoryAddress": "Fabrika Adresi",
+    "workHours": "Çalışma Saatleri",
+    "weekday": "Pazartesi - Cuma: 08:30 - 18:00",
+    "saturday": "Cumartesi: 09:00 - 14:00",
+    "sunday": "Pazar günleri kapalıyız",
+    "getDirections": "Yol Tarifi Al",
+    "directionsSoon": "Yol tarifi linki yakında eklenecek.",
+    "socialTitle": "Sosyal Medyada Biz",
+    "follow": "Takip Et",
+    "socialSoon": "Sosyal medya linkleri yakında eklenecek.",
+    "callNow": "Hemen Arayın!",
+    "callNowDesc": "Uzman ekibimiz sorularınızı yanıtlamak için hazır.",
+    "call": "Ara"
+  },
+  "productsPage": {
+    "metaTitle": "Ürünler | CCkids Kreş Mobilyaları",
+    "title": "Renkli Koleksiyonlar",
+    "subtitle": "Kreşinizi hayallerdeki oyun cennetine dönüştürecek tüm ürün kategorilerimizi keşfedin!",
+    "exploreCollection": "Koleksiyonu Keşfet",
+    "viewProducts": "Ürünleri Gör",
+    "allProducts": "Tüm Ürünler",
+    "search": "Arama: \"{q}\"",
+    "empty": "Ürün bulunamadı.",
+    "clearFilters": "Filtreleri Temizle",
+    "page": "Sayfa",
+    "previous": "← Önceki",
+    "next": "Sonraki →",
+    "product": "Ürün"
+  },
+  "projectsPage": {
+    "metaTitle": "Projeler | CCkids Kreş Mobilyaları",
+    "breadcrumb": "Projeler",
+    "title": "Projelerimiz",
+    "subtitle": "Türkiye'nin dört bir yanındaki kreş ve anaokullarına hayat verdik. İşte tamamladığımız projeler.",
+    "completed": "Tamamlanan Proje",
+    "cities": "İl'de Hizmet",
+    "satisfaction": "Müşteri Memnuniyeti",
+    "experience": "Yıllık Tecrübe",
+    "empty": "Bu filtrelerde proje bulunamadı.",
+    "loadMore": "Daha Fazla Proje",
+    "noMore": "Gösterilecek başka proje yok.",
+    "reviewsTitle": "Müşteri Yorumları",
+    "reviewsSubtitle": "Birlikte çalıştığımız kurumların değerli görüşleri",
+    "noReviews": "Henüz yorum bulunmuyor.",
+    "referencesTitle": "Güvenilir Markalar Bizi Tercih Ediyor",
+    "referencesSubtitle": "Birlikte çalıştığımız kurumlardan bazıları",
+    "noReferences": "Referans bulunamadı.",
+    "ctaTitle": "Projenizi Hayata Geçirelim!",
+    "ctaDesc": "Kreşiniz veya anaokulunuz için ücretsiz keşif ve proje danışmanlığı hizmeti alın.",
+    "ctaPrimary": "Ücretsiz Keşif Randevusu",
+    "ctaSecondary": "Ürünleri İncele",
+    "project": "Proje",
+    "featuredProject": "Öne Çıkan Proje",
+    "clickForDetails": "Detayları görmek için tıklayın",
+    "projectImage": "Proje görseli",
+    "loadError": "Projeler yüklenirken sorun yaşandı. Lütfen tekrar deneyin.",
+    "photos": "Fotoğraf"
+  },
+  "referencesPage": {
+    "metaTitle": "Referanslar | CCkids Kreş Mobilyaları",
+    "breadcrumb": "Referanslar",
+    "title": "Referanslarımız",
+    "subtitle": "Dünyanın önde gelen kurumları bize güveniyor",
+    "empty": "Henüz referans bulunmuyor.",
+    "visitWebsite": "Web Sitesini Ziyaret Et",
+    "trustedBy": "Güvenilen Kurum",
+    "ctaTitle": "Siz de Referanslarımız Arasına Katılın!",
+    "ctaDesc": "Kreşiniz veya anaokulunuz için kaliteli mobilya çözümleri sunuyoruz. Bize ulaşın, birlikte çalışalım.",
+    "ctaPrimary": "İletişime Geç",
+    "ctaSecondary": "Ürünleri İncele"
+  },
+  "projectDetail": {
+    "metaSuffix": "CCkids Projeler",
+    "metaDefault": "Proje Detayı | CCkids Projeler",
+    "notFound": "Proje bulunamadı",
+    "notFoundDesc": "Aradığınız proje kaldırılmış olabilir veya bağlantı hatalı.",
+    "backToProjects": "Projelere dön",
+    "about": "Proje Hakkında",
+    "aboutSoon": "Bu proje hakkında detay yakında eklenecek.",
+    "beforeAfter": "Önce & Sonra",
+    "before": "Önce",
+    "after": "Sonra",
+    "review": "Müşteri Yorumu",
+    "defaultCustomer": "Müşterimiz",
+    "info": "Proje Bilgileri",
+    "location": "Konum",
+    "date": "Tamamlanma Tarihi",
+    "duration": "Proje Süresi",
+    "capacity": "Kapasite",
+    "totalProducts": "Toplam Ürün",
+    "piece": "Parça",
+    "requestSimilar": "Benzer Proje İstiyorum",
+    "askWhatsapp": "WhatsApp ile Sor",
+    "similar": "Benzer Projeler",
+    "similarSubtitle": "İlginizi çekebilecek diğer projeler",
+    "allProjects": "Tüm Projeler",
+    "reviewLink": "İncele",
+    "allProjectsMobile": "Tüm Projeleri Gör",
+    "ctaTitle": "Sizin Projeniz Bir Sonraki Olsun!",
+    "ctaDesc": "Kreşiniz veya anaokulunuz için ücretsiz keşif ve proje danışmanlığı hizmeti alın.",
+    "ctaButton": "Ücretsiz Keşif Randevusu",
+    "whatsappDefault": "Merhaba, \"{project}\" projesine benzer bir proje için bilgi almak istiyorum.",
+    "loadErrorTitle": "Proje yüklenemedi",
+    "loadErrorDesc": "Bu proje şu an görüntülenemiyor. Tekrar deneyebilir ya da projelere dönebilirsiniz."
+  },
+  "categoryPage": {
+    "metaDefault": "Kategori | CCKids",
+    "productFound": "{count} ürün bulundu",
+    "exploreProducts": "Ürünleri İncele",
+    "searchIn": "{category} içinde ara...",
+    "empty": "Bu kategoride ürün bulunamadı.",
+    "backAll": "Tüm Ürünlere Dön",
+    "otherCategories": "Diğer Kategoriler",
+    "otherSubtitle": "İhtiyacınıza uygun diğer mobilyaları keşfedin"
+  }
+}

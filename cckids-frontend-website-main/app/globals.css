@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #FFF9F0;
+  color: #2C3E50;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.perspective-1000 { perspective: 1000px; }
+
+@keyframes references-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.references-marquee-track {
+  animation: references-marquee 28s linear infinite;
+  will-change: transform;
+}
+
+.references-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.references-dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+
+.references-dragging .references-marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .references-marquee-track {
+    animation: none;
+  }
+}

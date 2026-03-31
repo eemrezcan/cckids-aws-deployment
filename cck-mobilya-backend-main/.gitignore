@@ -1,0 +1,28 @@
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# venv
+.venv/
+
+# env / secrets
+.env
+.env.*.local
+
+# alembic
+alembic.ini.bak
+
+# logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+media/

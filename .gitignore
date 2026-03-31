@@ -1,0 +1,55 @@
+# secrets / env
+.env
+.env.local
+.env.production
+.env.prod
+.env.development
+.env.test
+**/.env
+**/.env.local
+**/.env.production
+**/.env.prod
+**/.env.development
+**/.env.test
+!**/.env.example
+!**/.env.production.example
+!**/.env.prod.example
+
+# certificates / keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+nginx/certs/
+
+# logs
+*.log
+logs/
+
+# dependencies / build output
+**/node_modules/
+**/.next/
+**/dist/
+**/dist-ssr/
+**/out/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+
+# local media
+**/media/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# local temp files
+**/*.local
+cckids-frontend-website-main/.tmp_tr_matches.txt
+
+# course docs kept private
+*.pdf

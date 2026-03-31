@@ -1,0 +1,561 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "projects": "Projects",
+    "references": "References",
+    "about": "About",
+    "contact": "Contact",
+    "getQuote": "Get Quote",
+    "menuToggle": "Toggle menu",
+    "langSwitch": "Change language",
+    "homeAriaLabel": "CCKids Home"
+  },
+  "hero": {
+    "title": "We Create Colorful Worlds! 🌈",
+    "subtitle": "Discover safe and playful preschool furniture that sparks children's imagination.",
+    "contactNow": "Contact Us Now",
+    "exploreProducts": "Explore Products",
+    "completedProjects": "Completed Projects",
+    "happySpaces": "Happy Schools, Colorful Spaces",
+    "allProjects": "All Projects",
+    "loadingProjects": "Project images are loading…",
+    "project": "Project",
+    "detail": "Details",
+    "clickToView": "Click to view project details",
+    "previous": "Previous",
+    "next": "Next",
+    "slide": "Slide",
+    "completedProjectCount": "Completed Projects",
+    "cityCoverage": "Cities Served",
+    "happyChildren": "Happy Children",
+    "experienceYears": "Years of Experience"
+  },
+  "features": {
+    "title": "Why Us?",
+    "items": {
+      "safeMaterial": {
+        "title": "Safe Materials",
+        "desc": "All our products are made from child-safe materials."
+      },
+      "colorfulDesign": {
+        "title": "Colorful Design",
+        "desc": "Bright, cheerful colors that boost children's imagination."
+      },
+      "ergonomic": {
+        "title": "Ergonomic",
+        "desc": "Comfortable designs tailored for little bodies."
+      },
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "desc": "Fast and secure delivery across Turkey."
+      }
+    }
+  },
+  "footer": {
+    "contactTitle": "Get In Touch! 💌",
+    "contactText": "We would love to build colorful spaces with you!",
+    "soon": "Coming soon",
+    "goToContact": "Go to Contact Page",
+    "aboutText": "Since 2010, we have been adding color to children’s worlds. We create happiness, not just furniture.",
+    "quickLinks": "Quick Links",
+    "addresses": "Addresses",
+    "office": "Office / Showroom",
+    "workshop": "Workshop / Production",
+    "followUs": "Follow Us",
+    "social": "Social media",
+    "copyright": "CCKids Preschool Furniture | We Create Colorful Worlds 🌈"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Error",
+    "retry": "Try again",
+    "notFound": "Not found",
+    "search": "Search",
+    "all": "All",
+    "viewDetail": "View Details",
+    "detailsForReview": "Review for details.",
+    "close": "Close",
+    "send": "Send",
+    "sending": "Sending...",
+    "whatsapp": "WhatsApp",
+    "comingSoon": "Coming soon",
+    "unknownError": "Unknown error"
+  },
+  "productList": {
+    "title": "Products",
+    "searchPlaceholder": "Search products...",
+    "productCount": "products",
+    "loadMore": "Load more",
+    "thatsAll": "That's all 🎉",
+    "empty": "No products found for your filters.",
+    "imageMissing": "No image",
+    "unexpectedError": "Something went wrong. Please try again."
+  },
+  "assistant": {
+    "welcome": "Hi! I'm the CCkids Design Assistant. ✨ How can I help you choose furniture for your classroom?",
+    "fallback": "Sorry, I have a connection issue right now. Could you try again? 🎈",
+    "error": "An error occurred, but we can try again! 🛠️",
+    "open": "Open AI assistant",
+    "title": "Design Wizard",
+    "subtitle": "AI Powered",
+    "ask": "Ask a question..."
+  },
+  "whatsapp": {
+    "contactVia": "Contact via WhatsApp"
+  },
+  "products": {
+    "allProducts": "All Products",
+    "searchLabel": "Search",
+    "productNotFound": "No product found.",
+    "clearFilters": "Clear filters",
+    "previous": "← Previous",
+    "next": "Next →",
+    "page": "Page",
+    "askStock": "Ask Stock"
+  },
+  "quoteForm": {
+    "contactTitle": "Write to Us ✍️",
+    "contactSubtitle": "Fill out the form, and we will get back to you shortly.",
+    "privacy": "I have read and accept the Privacy Policy. I consent to processing my personal data.",
+    "messageReceived": "Your message has been received. We will get back to you soon. ✅",
+    "requestReceived": "Your request has been received!",
+    "requestQuote": "Request Quote",
+    "validation": {
+      "fillName": "Please fill in your full name.",
+      "invalidEmail": "Please enter a valid email.",
+      "fillPhone": "Please fill in the phone field.",
+      "fillEmail": "Please fill in the email field.",
+      "qtyMin": "Quantity must be at least 1.",
+      "fillFirstName": "Please enter your first name.",
+      "fillLastName": "Please enter your last name.",
+      "fillContactEmail": "Please enter your email address.",
+      "fillSubject": "Please select a subject.",
+      "fillMessage": "Please write your message.",
+      "acceptPrivacy": "Please accept the privacy policy."
+    },
+    "labels": {
+      "firstName": "First Name *",
+      "firstNamePlaceholder": "Your first name",
+      "lastName": "Last Name *",
+      "lastNamePlaceholder": "Your last name",
+      "email": "Email *",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Phone",
+      "phoneRequired": "Phone *",
+      "phonePlaceholder": "(555) 123 45 67",
+      "company": "Institution Name",
+      "companyPlaceholder": "Preschool / Kindergarten name",
+      "city": "City",
+      "cityPlaceholder": "City",
+      "subject": "Subject *",
+      "subjectPlaceholder": "Select subject",
+      "message": "Your Message *",
+      "messagePlaceholder": "Write your message here...",
+      "selectedProduct": "Selected Product",
+      "selected": "Selected",
+      "fullName": "Full Name *",
+      "fullNamePlaceholder": "Your full name",
+      "quantity": "Quantity *",
+      "note": "Note (Optional)",
+      "notePlaceholder": "Specify your special requests...",
+      "productImageAlt": "Product"
+    },
+    "subjects": {
+      "quote": "I want a price quote",
+      "info": "I want product information",
+      "support": "Technical support",
+      "feedback": "Complaint / Suggestion",
+      "dealership": "Dealership application",
+      "other": "Other"
+    },
+    "message": {
+      "productIntro": "Hello, I would like to get a price quote for \"{product}\".",
+      "color": "Color: {value}",
+      "size": "Size: {value}",
+      "quantity": "Quantity: {value}",
+      "company": "Institution: {value}",
+      "city": "City: {value}",
+      "note": "Note: {value}",
+      "subject": "Subject: {value}",
+      "messageTitle": "Message:"
+    },
+    "submitError": "An error occurred while submitting.",
+    "requestTrackNo": "Tracking No: #{id}",
+    "privacyLink": "Privacy Policy",
+    "privacySuffix": "I have read and accept it. I consent to processing my personal data."
+  },
+  "productDetail": {
+    "notFoundDesc": "The link may be invalid or the product may have been removed.",
+    "backToProducts": "Back to products",
+    "badge": {
+      "featured": "Featured",
+      "inProduction": "In Production"
+    },
+    "aria": {
+      "zoom": "Zoom",
+      "image": "Image {index}"
+    },
+    "fallbackOption": "—",
+    "defaultSizeOption": "Option",
+    "colorOptions": "Color Options",
+    "selected": "Selected",
+    "sizeOptions": "Size Options",
+    "size": "Size",
+    "cta": {
+      "quoteForProduct": "Get Quote For This Product"
+    },
+    "tabs": {
+      "description": "📝 Description",
+      "features": "⚙️ Technical Specs",
+      "material": "🪵 Material & Production",
+      "delivery": "🚚 Delivery & Support"
+    },
+    "descriptionTitle": "Product Description",
+    "descriptionFallback": "For detailed information, fill in the quote form or message us on WhatsApp.",
+    "highlights": "Highlights",
+    "featuresTitle": "Technical Specifications",
+    "featuresSoon": "Technical specifications will be added soon.",
+    "materialTitle": "Material & Production",
+    "materialSoon": "Material and production details will be added soon.",
+    "sustainableTitle": "🌿 Sustainable Production",
+    "sustainableText": "We work with child-safe materials and environmentally conscious production.",
+    "deliveryTitle": "Delivery & Support",
+    "deliveryInfoTitle": "Delivery Information",
+    "delivery": {
+      "i1": "Nationwide shipping",
+      "i2": "Average delivery: 7-10 business days",
+      "i3": "Secure packaging",
+      "i4": "Support for bulk orders"
+    },
+    "warrantyTitle": "Our Support",
+    "warranty": {
+      "i1": "Spare parts support",
+      "i2": "Technical support",
+      "i3": "Service availability",
+      "i4": "Service availability"
+    },
+    "quoteTitle": "Get a Quote for This Product",
+    "quoteSubtitle": "Fill in the form and receive your custom price quote right away.",
+    "specialPrice": "% Special Price",
+    "priceInfo": "Prices may vary by color, size, and quantity. Fill the form and we will contact you quickly.",
+    "relatedSubtitle": "Frequently chosen with this product",
+    "quick": {
+      "i1": "Stain-resistant surface",
+      "i2": "Adjustable legs",
+      "i3": "E1 class wood",
+      "i4": "Support"
+    },
+    "contactForDetails": "Contact us now for detailed information and a custom quote.",
+    "largeImage": "Large Image",
+    "installation": "Installation Support",
+    "related": "Related Products",
+    "warrantyBadge": "Support"
+  },
+  "productTabs": {
+    "descriptionTitle": "Product Description",
+    "whyChoose": "Why Should You Choose This Product?",
+    "safeDesign": "Safe Design",
+    "safeDesignText": "Rounded lines and child-friendly surface.",
+    "easyClean": "Easy Cleaning",
+    "easyCleanText": "Stain-resistant, wipeable surface.",
+    "durable": "Durable Structure",
+    "durableText": "Built for intensive use.",
+    "longLife": "Long Lasting",
+    "longLifeText": "Material choice aligned with preschool standards.",
+    "featuresTitle": "Technical Specifications",
+    "featuresNote": "Note: This section will update automatically when technical data is added to the backend.",
+    "materialTitle": "Material & Production",
+    "topSurface": "Top Surface",
+    "legs": "Legs",
+    "sustainable": "🌿 Sustainable Production",
+    "sustainableText": "Child-safe materials are used in production. Details will appear here automatically when added.",
+    "deliveryTitle": "Delivery & Support",
+    "deliveryInfo": "Delivery Information",
+    "warranty": "Support Terms",
+    "defaultDescription": "is a safe and durable product designed for preschool and kindergarten use.",
+    "spec": {
+      "productCode": "Product Code",
+      "dimensions": "Dimensions",
+      "heightAdjust": "Height Adjustment",
+      "material": "Material",
+      "edgeBand": "Edge Band",
+      "capacity": "Load Capacity",
+      "ageGroup": "Age Group",
+      "certs": "Sustainability",
+      "warranty": "Support",
+      "warrantyValue": "2 years",
+      "delivery": "Delivery Time",
+      "deliveryValue": "7-10 business days"
+    },
+    "surface": {
+      "i1": "E1-class wood derivatives (low emission)",
+      "i2": "Easy-to-clean coating",
+      "i3": "Antibacterial surface option",
+      "i4": "ABS edge band"
+    },
+    "legsList": {
+      "i1": "Robust body structure",
+      "i2": "Floor-protective bases",
+      "i3": "Height adjustment mechanism (opt.)",
+      "i4": "Child-safe paint/varnish"
+    },
+    "deliveryList": {
+      "i1": "Nationwide shipping",
+      "i2": "Delivery time: 7-10 business days",
+      "i3": "Secure packaging",
+      "i4": "Support for bulk purchases"
+    },
+    "warrantyList": {
+      "i1": "Manufacturer support",
+      "i2": "Spare parts supply",
+      "i3": "Technical support"
+    }
+  },
+  "home": {
+    "hero": {
+      "b1": "Safe rounded edges",
+      "b2": "Easy-to-clean surface",
+      "b3": "Long-lasting durable material",
+      "inStock": "In Stock",
+      "featured": "Featured Product",
+      "star": "Star of the Week",
+      "warranty": "Support",
+      "viewProduct": "View Product",
+      "defaultTitle": "CCKids Preschool Furniture"
+    },
+    "cta": {
+      "title": "Contact Us for Your Project!",
+      "description": "Get free site inspection and project consultancy for your preschool or kindergarten.",
+      "contact": "Contact Us"
+    },
+    "featuredProducts": {
+      "subtitle": "Our most preferred products"
+    },
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Discover furniture that fits your needs",
+      "defaultName": "Category"
+    },
+    "completedProjects": {
+      "subtitle": "Happy projects from all around Turkey",
+      "hint": "Pauses on hover • You can drag with your finger"
+    }
+  },
+  "projects": {
+    "searchPlaceholder": "Search project...",
+    "clearSearch": "Clear search",
+    "clear": "Clear"
+  },
+  "seo": {
+    "homeDescription": "CCkids provides safe, ergonomic, and colorful furniture solutions for preschools and kindergartens.",
+    "aboutDescription": "Discover CCkids' story, values, and preschool furniture production approach.",
+    "contactDescription": "Get in touch with CCkids. Reach our phone, email, showroom, and factory address details here.",
+    "productsDescription": "Explore tables, chairs, cabinets, and more for preschools and kindergartens in our product categories.",
+    "projectsDescription": "Review completed preschool and kindergarten projects by CCkids and get inspired.",
+    "referencesDescription": "Explore institutions that trust CCkids and our reference portfolio."
+  },
+  "about": {
+    "metaTitle": "About | CCkids Preschool Furniture",
+    "breadcrumb": "About",
+    "since": "Since 2010",
+    "titleTop": "Little Ones'",
+    "titleMid": "Happiness",
+    "titleBottom": "Workshop",
+    "fallback": "We produce colorful and ergonomic furniture where children can play and learn safely. Every product includes love, quality, and creativity.",
+    "discover": "Discover Our Story",
+    "experience": "Years of Experience",
+    "happySchools": "Happy Preschools",
+    "produced": "Produced Furniture",
+    "happyChildren": "Happy Children",
+    "delivery": "Cities Delivered",
+    "storyTitle": "Our Story",
+    "storySubtitle": "On this journey to produce durable and functional preschool furniture that children can use safely, we have always prioritized quality and trust.",
+    "today": "Today",
+    "valuesTitle": "Our Values",
+    "valuesSubtitle": "We carry these values in every furniture piece we produce.",
+    "ctaTitle": "Let's Work Together!",
+    "ctaSubtitle": "Let's design your dream preschool furniture together. Our expert team is with you at every step.",
+    "ctaContact": "Contact Us",
+    "ctaProducts": "Explore Products",
+    "timeline": {
+      "2010": {
+        "title": "Getting Started",
+        "desc": "We started operations in Ankara to produce child-friendly furniture tailored for preschool institutions. Durability, ergonomics, and child safety have always been our top priorities."
+      },
+      "2014": {
+        "title": "Our Production Strength",
+        "desc": "In line with growing demand, we expanded our production capacity and product variety. Today we offer institution-specific production in different sizes and designs."
+      },
+      "2022": {
+        "title": "Education-Focused Designs",
+        "desc": "By considering the needs of educators and institutions, we started developing designs suitable for classroom use that support child development."
+      },
+      "today": {
+        "desc": "Today, from our production facility in Ankara, we serve many preschools and kindergartens across Turkey. As CCKids, we continue to provide great comfort for little hands."
+      }
+    },
+    "values": {
+      "items": {
+        "safety": {
+          "title": "Safety",
+          "desc": "Child safety comes first. Rounded corners, non-toxic paints, and robust structure are our standards."
+        },
+        "sustainability": {
+          "title": "Sustainability",
+          "desc": "Nature-respectful production. All our products are made of wood and A+ quality materials."
+        },
+        "creativity": {
+          "title": "Creativity",
+          "desc": "Designs that nurture children's imagination. Every product is a game, every color an adventure."
+        },
+        "love": {
+          "title": "Love",
+          "desc": "Every product is designed with love and produced with care. We do our best for our children."
+        },
+        "reliability": {
+          "title": "Reliability",
+          "desc": "We deliver the quality we promise. Lifelong service support."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "desc": "Continuous improvement and innovation. We follow education trends and improve our products."
+        }
+      }
+    },
+    "workshopAlt": "CCKids Workshop"
+  },
+  "contact": {
+    "metaTitle": "Contact | CCkids Preschool Furniture",
+    "breadcrumb": "Contact",
+    "heroTitle": "Get in Touch",
+    "heroSubtitle": "Reach out for your questions, suggestions, or quote requests. We are happy to help!",
+    "phone": "Phone",
+    "phoneHours": "Monday-Saturday: 09:00 - 18:00",
+    "whatsapp": "WhatsApp",
+    "whatsappDesc": "Send a message for a quick response",
+    "email": "Email",
+    "emailDesc": "Response within 24 hours",
+    "showroom": "Showroom",
+    "showroomDesc": "Office / showroom address",
+    "factory": "Factory",
+    "factoryDesc": "Workshop / production address",
+    "mapSoon": "Map information will be added soon.",
+    "factoryShowroom": "Factory & Showroom",
+    "showroomAddress": "Showroom Address",
+    "factoryAddress": "Factory Address",
+    "workHours": "Working Hours",
+    "weekday": "Monday - Friday: 08:30 - 18:00",
+    "saturday": "Saturday: 09:00 - 14:00",
+    "sunday": "Closed on Sundays",
+    "getDirections": "Get Directions",
+    "directionsSoon": "Directions link will be added soon.",
+    "socialTitle": "Find Us on Social Media",
+    "follow": "Follow",
+    "socialSoon": "Social media links will be added soon.",
+    "callNow": "Call Now!",
+    "callNowDesc": "Our expert team is ready to answer your questions.",
+    "call": "Call"
+  },
+  "productsPage": {
+    "metaTitle": "Products | CCkids Preschool Furniture",
+    "title": "Colorful Collections",
+    "subtitle": "Discover all product categories that can turn your preschool into a dream playground!",
+    "exploreCollection": "Explore Collection",
+    "viewProducts": "View Products",
+    "allProducts": "All Products",
+    "search": "Search: \"{q}\"",
+    "empty": "No products found.",
+    "clearFilters": "Clear Filters",
+    "page": "Page",
+    "previous": "← Previous",
+    "next": "Next →",
+    "product": "Product"
+  },
+  "projectsPage": {
+    "metaTitle": "Projects | CCkids Preschool Furniture",
+    "breadcrumb": "Projects",
+    "title": "Our Projects",
+    "subtitle": "We brought life to preschools and kindergartens all around Turkey. Here are our completed projects.",
+    "completed": "Completed Projects",
+    "cities": "Cities Served",
+    "satisfaction": "Customer Satisfaction",
+    "experience": "Years of Experience",
+    "empty": "No projects found with these filters.",
+    "loadMore": "Load More Projects",
+    "noMore": "No more projects to display.",
+    "reviewsTitle": "Customer Reviews",
+    "reviewsSubtitle": "Valuable feedback from institutions we worked with",
+    "noReviews": "No reviews yet.",
+    "referencesTitle": "Trusted Brands Choose Us",
+    "referencesSubtitle": "Some of the institutions we have worked with",
+    "noReferences": "No references found.",
+    "ctaTitle": "Let's Bring Your Project to Life!",
+    "ctaDesc": "Get free site inspection and project consultancy for your preschool or kindergarten.",
+    "ctaPrimary": "Free Inspection Appointment",
+    "ctaSecondary": "View Products",
+    "project": "Project",
+    "featuredProject": "Featured Project",
+    "clickForDetails": "Click to view details",
+    "projectImage": "Project image",
+    "loadError": "There was a problem loading projects. Please try again.",
+    "photos": "Photos"
+  },
+  "referencesPage": {
+    "metaTitle": "References | CCkids Preschool Furniture",
+    "breadcrumb": "References",
+    "title": "Our References",
+    "subtitle": "Leading institutions around the world trust us",
+    "empty": "No references found yet.",
+    "visitWebsite": "Visit Website",
+    "trustedBy": "Trusted Institutions",
+    "ctaTitle": "Join Our References!",
+    "ctaDesc": "We provide quality furniture solutions for your preschool or kindergarten. Contact us, let's work together.",
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "View Products"
+  },
+  "projectDetail": {
+    "metaSuffix": "CCkids Projects",
+    "metaDefault": "Project Detail | CCkids Projects",
+    "notFound": "Project not found",
+    "notFoundDesc": "The project may have been removed or the link may be incorrect.",
+    "backToProjects": "Back to projects",
+    "about": "About Project",
+    "aboutSoon": "Details about this project will be added soon.",
+    "beforeAfter": "Before & After",
+    "before": "Before",
+    "after": "After",
+    "review": "Customer Review",
+    "defaultCustomer": "Our Customer",
+    "info": "Project Info",
+    "location": "Location",
+    "date": "Completion Date",
+    "duration": "Project Duration",
+    "capacity": "Capacity",
+    "totalProducts": "Total Products",
+    "piece": "Pieces",
+    "requestSimilar": "I Want a Similar Project",
+    "askWhatsapp": "Ask via WhatsApp",
+    "similar": "Similar Projects",
+    "similarSubtitle": "Other projects you may be interested in",
+    "allProjects": "All Projects",
+    "reviewLink": "View",
+    "allProjectsMobile": "View All Projects",
+    "ctaTitle": "Let Your Project Be the Next One!",
+    "ctaDesc": "Get free site inspection and project consultancy for your preschool or kindergarten.",
+    "ctaButton": "Free Inspection Appointment",
+    "whatsappDefault": "Hello, I would like information for a project similar to \"{project}\".",
+    "loadErrorTitle": "Project could not be loaded",
+    "loadErrorDesc": "This project cannot be displayed right now. You can try again or return to projects."
+  },
+  "categoryPage": {
+    "metaDefault": "Category | CCKids",
+    "productFound": "{count} products found",
+    "exploreProducts": "View Products",
+    "searchIn": "Search in {category}...",
+    "empty": "No products found in this category.",
+    "backAll": "Back to All Products",
+    "otherCategories": "Other Categories",
+    "otherSubtitle": "Discover other furniture that fits your needs"
+  }
+}
