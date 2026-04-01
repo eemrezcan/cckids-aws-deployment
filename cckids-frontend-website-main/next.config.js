@@ -20,12 +20,15 @@ const remotePatterns = [
   toRemotePattern(process.env.NEXT_PUBLIC_MEDIA_BASE_URL),
 ].filter(Boolean);
 
+const disableImageOptimization = process.env.NEXT_DISABLE_IMAGE_OPTIMIZATION === 'true';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 
   images: {
     remotePatterns,
+    unoptimized: disableImageOptimization,
   },
 };
 

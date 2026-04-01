@@ -9,16 +9,31 @@ function stripLeadingSlash(path: string) {
   return path.startsWith("/") ? path.slice(1) : path;
 }
 
+function getApiBaseUrl(): string {
+  const publicBase = process.env.NEXT_PUBLIC_API_BASE_URL;
+  const internalBase = process.env.INTERNAL_API_BASE_URL;
+
+  if (typeof window === "undefined" && internalBase) {
+    return internalBase;
+  }
+
+  if (publicBase) {
+    return publicBase;
+  }
+
+  if (internalBase) {
+    return internalBase;
+  }
+
+  throw new Error("Missing NEXT_PUBLIC_API_BASE_URL. Define it in the environment.");
+}
+
 /**
  * Build an absolute API URL using NEXT_PUBLIC_API_BASE_URL.
  * Example: buildApiUrl("/public/products", { page: 1 })
  */
 export function buildApiUrl(path: string, query?: Record<string, QueryValue>): string {
-  const base = process.env.NEXT_PUBLIC_API_BASE_URL;
-  if (!base) {
-    throw new Error("Missing NEXT_PUBLIC_API_BASE_URL. Define it in .env.local");
-  }
-
+  const base = getApiBaseUrl();
   const cleanBase = stripTrailingSlash(base);
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   const url = new URL(`${cleanBase}${cleanPath}`);
@@ -48,9 +63,9 @@ export function buildMediaUrl(urlOrPath?: string | null): string | null {
 
   if (/^https?:\/\//i.test(normalized)) return normalized;
 
-  const base = process.env.NEXT_PUBLIC_API_BASE_URL;
+  const base = process.env.NEXT_PUBLIC_MEDIA_BASE_URL || process.env.NEXT_PUBLIC_API_BASE_URL;
   if (!base) {
-    throw new Error("Missing NEXT_PUBLIC_API_BASE_URL. Define it in .env.local");
+    throw new Error("Missing NEXT_PUBLIC_MEDIA_BASE_URL or NEXT_PUBLIC_API_BASE_URL. Define it in the environment.");
   }
 
   const cleanBase = stripTrailingSlash(base);

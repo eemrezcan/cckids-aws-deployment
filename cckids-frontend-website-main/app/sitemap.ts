@@ -3,6 +3,7 @@ import { getCategories, getProducts, getProjects } from "@/lib/api/endpoints";
 import { canonicalUrl } from "@/lib/seo";
 
 export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 const STATIC_PATHS = ["/", "/about", "/contact", "/products", "/projects", "/references"];
 
@@ -53,32 +54,36 @@ async function getAllCategoryUuids() {
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
-
-  const [productUuids, projectUuids, categoryUuids] = await Promise.all([
-    getAllProductUuids(),
-    getAllProjectUuids(),
-    getAllCategoryUuids(),
-  ]);
-
   const staticEntries: MetadataRoute.Sitemap = STATIC_PATHS.map((path) => ({
     url: canonicalUrl(path),
     lastModified: now,
   }));
 
-  const productEntries: MetadataRoute.Sitemap = productUuids.map((uuid) => ({
-    url: canonicalUrl(`/products/${encodeURIComponent(uuid)}`),
-    lastModified: now,
-  }));
+  try {
+    const [productUuids, projectUuids, categoryUuids] = await Promise.all([
+      getAllProductUuids(),
+      getAllProjectUuids(),
+      getAllCategoryUuids(),
+    ]);
 
-  const projectEntries: MetadataRoute.Sitemap = projectUuids.map((uuid) => ({
-    url: canonicalUrl(`/projects/${encodeURIComponent(uuid)}`),
-    lastModified: now,
-  }));
+    const productEntries: MetadataRoute.Sitemap = productUuids.map((uuid) => ({
+      url: canonicalUrl(`/products/${encodeURIComponent(uuid)}`),
+      lastModified: now,
+    }));
 
-  const categoryEntries: MetadataRoute.Sitemap = categoryUuids.map((uuid) => ({
-    url: canonicalUrl(`/products/categories/${encodeURIComponent(uuid)}`),
-    lastModified: now,
-  }));
+    const projectEntries: MetadataRoute.Sitemap = projectUuids.map((uuid) => ({
+      url: canonicalUrl(`/projects/${encodeURIComponent(uuid)}`),
+      lastModified: now,
+    }));
 
-  return [...staticEntries, ...productEntries, ...projectEntries, ...categoryEntries];
+    const categoryEntries: MetadataRoute.Sitemap = categoryUuids.map((uuid) => ({
+      url: canonicalUrl(`/products/categories/${encodeURIComponent(uuid)}`),
+      lastModified: now,
+    }));
+
+    return [...staticEntries, ...productEntries, ...projectEntries, ...categoryEntries];
+  } catch (error) {
+    console.warn("Falling back to static sitemap entries", error);
+    return staticEntries;
+  }
 }

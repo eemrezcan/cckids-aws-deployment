@@ -41,6 +41,51 @@ Bu repo, CCK Kids / CCK Mobilya projesinin cloud-ready monorepo halidir.
 - Örnek env dosyaları `*.example` olarak tutulur
 - Ders PDF'leri public repoya dahil edilmez
 
+## Lokal Smoke Test
+
+AWS'e cikmadan once repo lokal olarak Docker ile test edilebilir.
+
+Ana dosyalar:
+
+- `docker-compose.local.yml`
+- `nginx/default.local.conf`
+- `.env.local.compose.example`
+
+Hizli baslangic:
+
+1. Istersen `.env.local.compose.example` dosyasini `.env.local.compose` olarak kopyala ve degerleri guncelle.
+2. Asagidaki komutu calistir:
+
+```powershell
+docker compose --env-file .env.local.compose -f docker-compose.local.yml up --build
+```
+
+Env dosyasi olusturmak istemezsen varsayilan degerlerle su komut da calisir:
+
+```powershell
+docker compose -f docker-compose.local.yml up --build
+```
+
+Lokal URL:
+
+- `http://localhost:8080`
+
+Lokal stack:
+
+- `web`
+  Next.js frontend
+- `api`
+  FastAPI backend
+- `db`
+  PostgreSQL
+- `nginx`
+  lokal reverse proxy
+
+Not:
+
+- Lokal stack'te medya `local storage` ile calisir
+- Lokal stack'te image optimization kapatilabilir; bu, `localhost` altinda smoke test'i kolaylastirmak icindir
+
 ## Sonraki Adım
 
 Bu repo, EC2 deploy ve AWS kurulumuna hazırlanmış durumdadır. Somut kurulum planı için:
