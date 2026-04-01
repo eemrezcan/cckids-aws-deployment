@@ -18,7 +18,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title=settings.project_name)
+app = FastAPI(title=settings.project_name, root_path=settings.root_path)
 
 if settings.storage_backend == "local":
     media_root = Path(settings.media_root).resolve()

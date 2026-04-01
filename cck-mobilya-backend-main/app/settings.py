@@ -16,6 +16,7 @@ class Settings(BaseSettings):
     app_env: str = "dev"
     project_name: str = "CCK Mobilya API"
     api_v1_prefix: str = ""
+    root_path: str = ""
     database_url: str = "postgresql+psycopg2://cck:cck@localhost:5432/cck"
     cors_origins: List[str] = []
 
@@ -71,6 +72,15 @@ class Settings(BaseSettings):
         if not raw:
             raise ValueError("media_url_prefix cannot be empty")
         return raw
+
+    @field_validator("root_path", mode="before")
+    @classmethod
+    def normalize_root_path(cls, value: object) -> str:
+        raw = str(value or "").strip()
+        if not raw or raw == "/":
+            return ""
+        normalized = "/" + raw.strip("/")
+        return normalized
 
 
 settings = Settings()

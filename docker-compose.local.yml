@@ -26,6 +26,7 @@ services:
     environment:
       APP_ENV: dev
       PROJECT_NAME: CCK Mobilya API
+      ROOT_PATH: /api
       DATABASE_URL: postgresql+psycopg2://${LOCAL_POSTGRES_USER:-app}:${LOCAL_POSTGRES_PASSWORD:-app}@db:5432/${LOCAL_POSTGRES_DB:-furniture}
       DATABASE_URL_TEST: postgresql+psycopg2://${LOCAL_POSTGRES_USER:-app}:${LOCAL_POSTGRES_PASSWORD:-app}@db:5432/${LOCAL_POSTGRES_DB_TEST:-furniture_test}
       CORS_ORIGINS: '${LOCAL_CORS_ORIGINS:-["http://localhost:8080"]}'
