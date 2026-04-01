@@ -59,6 +59,7 @@ Useful env vars:
 - `MEDIA_ROOT=media`
 - `MEDIA_URL_PREFIX=media`
 - `APP_BASE_URL=https://api.example.com`
+- `CORS_ORIGINS=https://example.com,https://admin.example.com`
 - `AWS_REGION=eu-central-1`
 - `S3_BUCKET_NAME=your-media-bucket`
 - `S3_PUBLIC_BASE_URL=https://your-media-domain`
