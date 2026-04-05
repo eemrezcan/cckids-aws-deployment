@@ -6,6 +6,7 @@ node_modules/
 # next build outputs
 .next/
 out/
+*.tsbuildinfo
 
 # logs
 npm-debug.log*

@@ -1,104 +1,93 @@
-# CCK Kids Admin Panel
+# CCK Admin Panel
 
-Bu proje, `cckids-admin-main` içindeki Vite tabanlı yönetim panelidir.
+Bu uygulama, CCK Kids monorepo içindeki Vite tabanlı yönetim panelidir. İçerik yönetimi, teklif görüntüleme ve katalog güncellemeleri bu arayüz üzerinden yapılır.
 
-## Local Run
+## Sorumlulukları
 
-Gerekenler:
+- admin girişi
+- ürün, proje, kategori ve renk yönetimi
+- ana sayfa ve kurumsal içerik yönetimi
+- referans, sosyal medya ve teklif talepleri yönetimi
+- backend API'nin korumalı admin endpoint'leri ile çalışma
 
-- Node.js
+## Gereksinimler
 
-Kurulum:
+- Node.js 20+
+- `npm`
 
-```bash
-npm install
-```
+## Ortam Değişkenleri
 
-Ortam değişkeni:
-
-```env
-VITE_API_URL=http://localhost:8000
-```
-
-Çalıştırma:
-
-```bash
-npm run dev
-```
-
-## Production Build
-
-Production için örnek env dosyası:
+Production örnek dosyası:
 
 - [.env.production.example](./.env.production.example)
 
 Temel değişken:
 
-- `VITE_API_URL=https://api.example.com`
+- `VITE_API_URL`
+  Admin panelin bağlanacağı backend API adresi
 
-Build alma:
+Lokal örnek:
+
+```env
+VITE_API_URL=http://localhost:8000
+```
+
+## Lokal Geliştirme
+
+Bağımlılıkları kur:
+
+```bash
+npm install
+```
+
+Geliştirme sunucusunu başlat:
+
+```bash
+npm run dev
+```
+
+Varsayılan erişim:
+
+- App: `http://localhost:3000`
+
+## Production Build
 
 ```bash
 npm run build
 ```
 
-Çıktı klasörü:
+Build çıktısı:
 
 - `dist/`
 
-## AWS S3 + CloudFront Deploy
+Bu yapı sayesinde admin panel Docker zorunluluğu olmadan statik dosya olarak yayınlanabilir.
 
-Bu admin panel için önerilen yayın modeli:
+## AWS Dağıtım Notu
+
+Bu panel için önerilen yayın modeli:
 
 - `admin.example.com -> CloudFront -> S3`
 
-Neden:
+Bu yaklaşımın uygun olmasının nedenleri:
 
-- panel statik build sonrası dosyalara dönüşüyor
-- HTTPS ve custom domain için CloudFront daha temiz
-- cache invalidation yapılabiliyor
+- build sonrası statik çıktı üretmesi
+- HTTPS ve custom domain yönetimini kolaylaştırması
+- CloudFront cache invalidation desteği sunması
 
-Bu projede `HashRouter` kullanıldığı için:
+Bu projede `HashRouter` kullanıldığı için ek SPA rewrite ihtiyacı azaltılmıştır.
 
-- S3/CloudFront tarafında ekstra SPA rewrite kuralı zorunlu değildir
-- `index.html` ana giriş dosyası olarak yeterlidir
+Hazır deploy scripti:
 
-İlgili router kullanımı:
+- [scripts/deploy-admin.ps1](./scripts/deploy-admin.ps1)
 
-- [App.tsx](./App.tsx)
-
-### Önerilen AWS Kurulumu
-
-1. S3 bucket oluştur
-2. Admin build çıktısını bu bucketa yükle
-3. CloudFront distribution oluştur
-4. Origin olarak S3 bucket bağla
-5. Alternate domain name olarak `admin.example.com` ekle
-6. Route 53 ile `admin.example.com` kaydını CloudFront'a yönlendir
-
-### Deploy Script
-
-Hazır PowerShell deploy scripti:
-
-- [deploy-admin.ps1](./scripts/deploy-admin.ps1)
-
-Kullanım:
+Örnek kullanım:
 
 ```powershell
 $env:VITE_API_URL="https://api.example.com"
 .\scripts\deploy-admin.ps1 -BucketName "your-admin-bucket" -CloudFrontDistributionId "DIST_ID"
 ```
 
-Script ne yapar:
-
-- `npm ci`
-- `npm run build`
-- `dist/` klasörünü S3'e sync eder
-- istenirse CloudFront invalidation oluşturur
-
 ## Notlar
 
-- Admin panelin API adresi `VITE_API_URL` ile belirlenir. Kod tarafı:
-  [api.ts](./services/api.ts)
-- Admin panel build sonrası Docker gerektirmez; doğrudan S3'e yüklenebilir.
-- Gerçek production'da bucket erişimi ve CloudFront tarafı IAM politikalarıyla sınırlandırılmalıdır.
+- API adresi istemci tarafında `VITE_API_URL` üzerinden çözülür.
+- Production erişim modeli CloudFront ve IAM politikaları ile sınırlandırılmalıdır.

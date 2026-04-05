@@ -33,6 +33,7 @@ logs/
 **/dist/
 **/dist-ssr/
 **/out/
+**/*.tsbuildinfo
 **/.venv/
 **/__pycache__/
 **/.pytest_cache/
@@ -53,3 +54,6 @@ cckids-frontend-website-main/.tmp_tr_matches.txt
 
 # course docs kept private
 *.pdf
+docs-local/
+PROJE_*.md
+rollout-*.jsonl
