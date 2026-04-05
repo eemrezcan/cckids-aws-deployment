@@ -2,7 +2,7 @@
 
 CCK Kids / CCK Mobilya için geliştirilen bu repo; public web sitesi, yönetim paneli ve backend API'yi tek yerde toplayan cloud-ready bir monorepo yapısıdır. Proje, gerçek bir içerik yönetimi ve katalog senaryosunu hedefler: ürün ve proje içerikleri admin panelden yönetilir, public site bu verileri API üzerinden alır, medya dosyaları ise local storage veya AWS S3 üzerinden sunulabilir.
 
-** VİDEO LİNKİ : **
+VİDEO LİNKİ: https://youtu.be/tbGvD_LDM5U
 
 ## Öne Çıkanlar
 
