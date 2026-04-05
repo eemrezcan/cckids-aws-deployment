@@ -15,14 +15,14 @@ CCK Kids / CCK Mobilya için geliştirilen bu repo; public web sitesi, yönetim 
 
 ```mermaid
 flowchart LR
-    user[Kullanıcı] --> web[Next.js Public Web]
-    admin[Yönetici] --> adminui[Vite Admin Panel]
-    web --> api[FastAPI API]
-    adminui --> api
+    user[Kullanıcı] --> cfapp[CloudFront Web/API]
+    admin[Yönetici] --> cfadmin[CloudFront Admin]
+    cfapp --> web[Next.js Public Web]
+    cfapp --> api[FastAPI API]
+    cfadmin --> adminui[Vite Admin Panel]
     api --> db[(PostgreSQL)]
     api --> storage[(Local Storage / S3)]
-    cf[CloudFront] --> adminui
-    cf --> storage
+    cfmedia[CloudFront Media] --> storage
 ```
 
 ## Monorepo Yapısı
@@ -116,8 +116,8 @@ Lokal erişim:
 
 Production tarafında hedeflenen dağıtım modeli aşağıdaki gibidir:
 
-- `example.com` -> Next.js public web
-- `api.example.com` -> FastAPI API
+- `example.com` -> `CloudFront -> EC2 -> Nginx -> Next.js public web`
+- `api.example.com` -> `CloudFront -> EC2 -> Nginx -> FastAPI API`
 - `admin.example.com` -> admin panel, `S3 + CloudFront`
 - `media.example.com` -> medya dosyaları, `S3 + CloudFront`
 
@@ -126,7 +126,7 @@ Ana servis sorumlulukları:
 - `EC2`: web + api + nginx
 - `RDS PostgreSQL`: veritabanı
 - `S3`: admin build çıktılarını ve medya dosyalarını tutma
-- `CloudFront`: admin ve medya dağıtımı
+- `CloudFront`: web ve API için EC2 origin, admin ve medya için S3 origin önünde yayın/dağıtım katmanı
 
 Detaylı kurulum yaklaşımı için:
 
